@@ -1,0 +1,86 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore environment variables file
+.env
+
+# Ignore virtual environments
+venv/
+.venv/
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# generated
+sw.js
+sw.js.map
+.github/**/output/index.js
+**/public/workbox-*.js
+**/public/workbox-*.js.map
+
+# dependencies
+node_modules
+.pnp
+.pnp.js
+
+# testing
+coverage
+
+# next.js
+.next/
+out/
+output/
+build
+.build/
+.vercel
+
+# misc
+.DS_Store
+*.pem
+**/.gitignore
+!.gitignore
+
+# debug
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+.env*.local
+
+# turbo
+.turbo
+
+# bundles
+bundle.js
+bundle.cjs
+es6-bundle.js
+es6.js
+dist/
+.swc
+
+# test stuff
+.jest-cache
+coverage
+/test-results/
+playwright-report
+/playwright/.cache/
+tests/results
+tests/**/results/
+playwrightResults
+yarn.lock
+
+# etc
+.sentryclirc
+
+# all the haters
+haters/
